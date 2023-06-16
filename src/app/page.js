@@ -39,7 +39,7 @@ export default function Home() {
             <p><a href="https://github.com/Wekesa59"><AiFillGithub /></a></p>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-purple-600 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96 dark:bg-gradient-to-b dark:from-blue-600 ">
-            <Image className="" src={Nice_Cut} layout="fill" objectFit ="contain"/>
+            <Image className="" src={Nice_Cut} alt = "" layout="fill" objectFit ="contain"/>
           </div>
         </section>
 
@@ -51,7 +51,7 @@ export default function Home() {
           </div>
           <div className=" flex flex-col gap-10 md:p-0  lg:flex-row lg:flex-wrap justify-center">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 Langs w-1/3 ">
-              <Image src ={Python} width = {100} height = {100} className="mx-auto"/>
+              <Image src ={Python} alt = "" width = {100} height = {100} className="mx-auto"/>
               <h3 className="text-lg font-medium pt-8 pb-2 underline">Programming Languages</h3>
               <p className="text-gray-800 py-1 dark:text-[#3A86FF]">Java</p>
               <p className="text-gray-800 py-1 dark:text-[#3A86FF]">Python</p>
@@ -62,7 +62,7 @@ export default function Home() {
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 skills w-1/4  Sub">
-              <Image src = {Git} width = {100} height = {100} className="mx-auto"/>
+              <Image src = {Git} alt = "" width = {100} height = {100} className="mx-auto"/>
               <h3 className="text-lg font-medium pt-8 pb-2 underline ">Sub Skills</h3>
               <p className="text-gray-800 py-1 dark:text-[#8338EC]">Git</p>
               <p className="text-gray-800 py-1 dark:text-[#8338EC]">Firebase</p>
@@ -70,7 +70,7 @@ export default function Home() {
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 skills w-1/3 Frame">
-              <Image src = {VSCode} width = {100} height = {100} className="mx-auto"/>
+              <Image src = {VSCode} alt = "" width = {100} height = {100} className="mx-auto"/>
               <h3 className="text-lg font-medium pt-8 pb-2 underline">Frameworks</h3>
               <p className="text-gray-800 py-1 dark:text-[#FFBE0B]">React</p>
               <p className="text-gray-800 py-1 dark:text-[#FFBE0B]">Android Studio</p>
@@ -87,15 +87,15 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 text-center">
               <h3 className="font-semibold text-[#FFBE0B]"><a href ="https://github.com/Wekesa59/bank_modern_app">React JS & Tailwind CSS Bank Site</a></h3>
-              <Image src={bank_site} className="rounded-lg object-cover w-[100%] h-[100%]" layout = "responsive"/>
+              <Image src={bank_site} alt = "" className="rounded-lg object-cover w-[100%] h-[100%]" layout = "responsive"/>
             </div>
             <div className="basis-1/3 flex-1 text-center">
               <h3 className="font-semibold text-[#FFBE0B]"><a href ="">Software Engineer Flutter Calendar App</a></h3>
-              <Image src={i_schedule} className="rounded-lg object-cover w-[100%] h-[100%]" layout = "responsive"/>
+              <Image src={i_schedule} alt = "" className="rounded-lg object-cover w-[100%] h-[100%]" layout = "responsive"/>
             </div>
             <div className="basis-1/3 flex-1 text-center">
               <h3 className="font-semibold text-[#FFBE0B]"><a href ="https://github.com/Wekesa59/Group_10">Mobile App Project w/ Firebase</a></h3>
-              <Image src={Group_10} className="rounded-lg object-cover w-[100%] h-[100%]" layout = "responsive"/>
+              <Image src={Group_10} alt = "" className="rounded-lg object-cover w-[100%] h-[100%]" layout = "responsive"/>
             </div>
           </div>
         </section>
